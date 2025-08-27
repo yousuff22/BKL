@@ -1,4 +1,0 @@
-Hello ???
-
-I am a file which was created already in the disk
-and i am accessing through program using ifstream object
