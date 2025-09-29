@@ -11,7 +11,7 @@ void permutationWithDigits(string ip, string op) {
     string op2 = op;
 
     if(isdigit(ip[0])) {
-        op1.push_back(ip[0]);
+        op1.push_back(ip[0]); 
 
         ip.erase(ip.begin() + 0);
         permutationWithDigits(ip, op1);
